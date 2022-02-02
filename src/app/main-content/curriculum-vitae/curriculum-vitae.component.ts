@@ -9,6 +9,32 @@ import { CvItem } from './cvItem.model';
 export class CurriculumVitaeComponent implements OnInit {
   cvItems: CvItem[] = [
     new CvItem(
+      'DreamBox Learning',
+      'SDE - Front-End (I)',
+      "May '21 - Present",
+      "Radically transforming the way the world learns. At DreamBox we found a better way to support students' math journeys. We meet them exactly where they are (no matter where they start), intelligently adapt to the way they learn, and help them excel no matter who they are or where they live.",
+      'I work on the Insights Educator Dashboard which provides reports, data visualizations, and classroom management for educators. Some of the front-end technologies I use every day include:',
+      'Our Scrum team is cross-functional and self-organizing, owning each step of the development process from test planning all the way to deployment and monitoring- thanks to a strong DevOps culture. We utilize test-driven development and a CI/CD pipeline that helps us deliver value faster and reduce risks. Some of the supporting technologies we use to accomplish this include:',
+      [
+        'JavaScript',
+        'Angular',
+        'TypeScript',
+        'TDD',
+        'SCSS',
+      ],
+      [
+        'AWS S3',
+        'New Relic',
+        'Nomad',
+        'Drone',
+        'Kibana',
+        'Docker',
+        'Postman',
+        'Jira',
+        'Jenkins'
+      ]
+    ),
+    new CvItem(
       'Traditions of the Ancestors',
       'Junior Web Developer',
       "Aug. '18 - May '19",
@@ -82,7 +108,7 @@ export class CurriculumVitaeComponent implements OnInit {
       'University of Washington',
       'B.A. Philosophy',
       "Jan. '14 - Aug. '15",
-      'Studied philosophy with a concentration in the history of western philosophy including metaphysics, ethics, aesthetics, epistemology, and the development of these philosophical concepts and issues from ancient to contemporary times. Go Huskies!',
+      'Studied philosophy with a special interest in the history of western philosophy including metaphysics, ethics, aesthetics, epistemology, and the development of these philosophical concepts and issues from ancient to contemporary times. Go Huskies!',
       '',
       '',
       [],
